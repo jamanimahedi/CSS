@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.bx{
+    width: 100px;
+    height: 100px;
+    margin: 40px;
+    background-color: gray;
+
+    transition-property: width, transform, background-color; 
+    transition-duration: 0.5s;
+}
+
+.bx:hover{
+    transform: scale(1.2);
+    background-color: black;
+    width: 200px;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    margin: 50px;
+
+    transition: all 0.7s;
+}
+.box:hover{
+    transform: none;
+}
+
+.box1{
+    transform: rotate(45deg);
+}
+.box2{
+    transform: rotateX(30deg);
+}
+.box3{
+    transform: rotateY(30deg);
+}
+
+
+
+.box4{
+    transform: translateX(50px)
+}
+.box5{
+    transform: translateY(-50px)
+}
+.box6{
+    transform: translate(50px, 50px)
+}
+
+
+
+.box7{
+    transform: scale(0.8)
+}
+.box8{
+    transform: scaleX(0.8)
+}
+.box9{
+    transform: scaleY(0.8)
+}
+
+
+.box10{
+    transform: skewX(20deg)
+}
+.box11{
+    transform: skewY(20deg)
+}
+
+.box12{
+    transform: skew(20deg, 20deg)
+}
+
+
+
+
+/* card css   */
+
+
+.card{
+    margin: 50px;
+    width: 250px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 20px;
+    overflow: hidden;
+     transition: all 0.4s;
+}
+
+.card img{
+    width: 100%;
+    background-color: gainsboro;
+    padding: 1px;
+    border-radius: 20px;
+
+   
+}
+
+.card-details{
+    padding: 10px;
+    text-align: center;
+}
+
+.card .btn{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: maroon;
+    color: white;
+    font-weight: 700;
+
+    transition: all 0.5s;
+}
+
+.card .btn:hover{
+    color: maroon;
+    background-color: white;
+    box-shadow: maroon 0px 2px 8px 0px;
+
+}
+
+
+.card:hover{
+    transform: translateY(-20px);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
